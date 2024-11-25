@@ -3,11 +3,11 @@ import "./globals.css";
 import Header from "@/components/Header"
 
 export const metadata = {
-  title: "luzMIRANDA",
+  title: "ANNE",
   description: "Aplicação de Front-End II",
   charset: 'UTF-8',
-  author: 'LUZ',
-  keywords: "HTML, CSS, JavaScript, React, Next.js, Hellokitty"
+  author: 'Anne',
+  keywords: "HTML, CSS, JavaScript, React, Next.js, anne"
 };
 
 export default function RootLayout({ children }) {
