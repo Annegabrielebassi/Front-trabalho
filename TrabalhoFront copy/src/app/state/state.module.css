@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alinha o conteúdo ao topo */
+    height: 100vh;
+    background-color: #ffe4e1; /* Rosa claro */
+    padding-top: 20px; /* Adiciona um pouco de espaço no topo */
+}
+
+.title {
+    font-size: 2em;
+    color: #ff69b4; /* Rosa choque */
+    margin-bottom: 10px; /* Reduz a margem inferior */
+}
+
+.input {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ff69b4; /* Rosa choque */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Reduz a margem inferior */
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff69b4; /* Rosa choque */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; /* Adiciona uma margem inferior */
+}
+
+.button:hover {
+    background-color: #ff1493; /* Rosa profundo */
+}
+
+.message {
+    margin-top: 10px; /* Reduz a margem superior */
+    font-size: 1.5em;
+    color: #ff69b4; /* Rosa choque */
+}
