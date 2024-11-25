@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <header />
       <h1>
-        Anne Gabrielly
+        Anne Gabriele
       </h1>
       <p className={styles.Titulo}>Girassois são legais</p>
     </div>
