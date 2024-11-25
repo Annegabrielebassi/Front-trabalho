@@ -1,11 +1,11 @@
 :root {
-  --background: #ffffff;
+  --background: #fff9c4; /* Amarelo claro */
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #fcb3ff;
+    --background: #fff8d9; /* Amarelo mais escuro */
     --foreground: #ededed;
   }
 }
@@ -30,21 +30,21 @@ body {
   margin: 0;
 }
 
-div{
+div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
-h1{
+h1 {
   display: block;
   margin: auto;
-  color: rgb(9, 37, 160);
-  
+  color: #fbc02d; /* Amarelo vibrante */
 }
 
 @media (prefers-color-scheme: dark) {
